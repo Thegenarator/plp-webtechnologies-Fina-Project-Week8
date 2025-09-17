@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - JiraniTech Outfitters</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="progressBar"></div>
+
+  <header>
+    <div class="logo">
+      <h1>JiraniTech Outfitters</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle" title="Toggle Dark Mode">🌓</button>
+    </nav>
+    <div class="mobile-menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <h1 class="page-title">Contact Us</h1>
+    <ul class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="contact-intro" data-aos="fade-up">
+      <p>Have questions or need assistance? Reach out to our friendly team. We're here to help with all your technology needs.</p>
+    </section>
+
+    <div class="contact-grid">
+      <section class="contact-info" data-aos="fade-up">
+        <h2>Get In Touch</h2>
+        
+        <div class="contact-method">
+          <div class="contact-icon">📍</div>
+          <div class="contact-details">
+            <h3>Visit Us</h3>
+            <p>Tech Plaza, 3rd Floor</p>
+            <p>Nairobi, Kenya</p>
+          </div>
+        </div>
+        
+        <div class="contact-method">
+          <div class="contact-icon">📞</div>
+          <div class="contact-details">
+            <h3>Call Us</h3>
+            <p>+254 721 517 279</p>
+            <p>+254 723 221 095</p>
+          </div>
+        </div>
+        
+        <div class="contact-method">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-details">
+            <h3>Email Us</h3>
+            <p>info@jiranitech.com</p>
+            <p>support@jiranitech.com</p>
+          </div>
+        </div>
+        
+        <div class="contact-method">
+          <div class="contact-icon">🕒</div>
+          <div class="contact-details">
+            <h3>Business Hours</h3>
+            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+            <p>Saturday: Closed</p>
+            <p>Sunday: 9:00 AM - 4:00 PM</p>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <div class="placeholder-image">Google Maps Embed</div>
+        </div>
+      </section>
+
+      <section class="contact-form-section" data-aos="fade-up">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" required />
+            <div class="feedback" id="nameFeedback"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" required />
+            <div class="feedback" id="emailFeedback"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service">
+              <option value="">Select a service</option>
+              <option value="laptop-repair">Laptop Repair</option>
+              <option value="phone-repair">Phone Repair</option>
+              <option value="data-recovery">Data Recovery</option>
+              <option value="consultation">ICT Consultation</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" rows="5" required></textarea>
+            <div class="feedback" id="messageFeedback"></div>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </section>
+    </div>
+
+    <section class="faq-section" data-aos="fade-up">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="faq">
+        <h3 class="faq-question">How long does a typical repair take?</h3>
+        <div class="faq-answer">
+          <p>Most repairs are completed within 24-48 hours. Complex issues like motherboard repairs or data recovery may take 3-5 business days. We offer expedited services for an additional fee.</p>
+        </div>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-question">Do you offer warranty on repairs?</h3>
+        <div class="faq-answer">
+          <p>Yes, all our repairs come with a 90-day warranty. Parts replaced also include manufacturer warranties where applicable.</p>
+        </div>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-question">Can you come to my location for repairs?</h3>
+        <div class="faq-answer">
+          <p>We offer on-site services for businesses and home users within Nairobi for an additional fee. Contact us for a quote.</p>
+        </div>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-question">What payment methods do you accept?</h3>
+        <div class="faq-answer">
+          <p>We accept cash, M-Pesa, bank transfers, and credit/debit cards. Payment is due upon completion of repairs.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>JiraniTech Outfitters</h3>
+        <p>Your trusted technology partner for repairs, consulting, and solutions.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>Email: info@jiranitech.com</p>
+        <p>Phone: +254 721 517 279</p>
+        <p>Address: Tech Plaza, Nairobi, Kenya</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 JiraniTech Outfitters. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

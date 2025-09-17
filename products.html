@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Products - JiraniTech Outfitters</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Additional styles for product images */
+    .product-image {
+      height: 200px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f5f5f5;
+    }
+    
+    .product-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    .product-card:hover .product-image img {
+      transform: scale(1.05);
+    }
+    
+    .placeholder-image {
+      width: 100%;
+      height: 100%;
+      background-color: #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div id="progressBar"></div>
+
+  <header>
+    <div class="logo">
+      <h1>JiraniTech Outfitters</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle" title="Toggle Dark Mode">🌓</button>
+    </nav>
+    <div class="mobile-menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <h1 class="page-title">Our Products</h1>
+    <ul class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li>Products</li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="products-intro" data-aos="fade-up">
+      <p>At JiraniTech Outfitters, we offer a curated selection of quality technology products at competitive prices. All our products come with a warranty and expert setup assistance.</p>
+    </section>
+
+    <div class="tabs" data-aos="fade-up">
+      <button class="tab-button active" data-tab="laptops">Laptops</button>
+      <button class="tab-button" data-tab="phones">Phones</button>
+      <button class="tab-button" data-tab="accessories">Accessories</button>
+      <button class="tab-button" data-tab="components">Components</button>
+    </div>
+
+    <div class="tab-content active" id="laptops" data-aos="fade-up">
+      <h2>Laptops & Computers</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/dellxps.jpg" alt="Dell XPS 13 Laptop">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Dell XPS 13</h3>
+            <span class="product-price">KES 125,000</span>
+            <p>13-inch FHD display, Intel i7, 16GB RAM, 512GB SSD</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/hp.jpg" alt="HP Pavilion 15 Laptop">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">HP Pavilion 15</h3>
+            <span class="product-price">KES 85,000</span>
+            <p>15.6-inch display, Intel i5, 8GB RAM, 256GB SSD</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/lenovo.jpg" alt="Lenovo ThinkPad Laptop">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Lenovo ThinkPad</h3>
+            <span class="product-price">KES 95,000</span>
+            <p>14-inch display, AMD Ryzen 5, 8GB RAM, 512GB SSD</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/macbook.jpg" alt="Refurbished MacBook Air">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Refurbished MacBook Air</h3>
+            <span class="product-price">KES 75,000</span>
+            <p>13-inch Retina, Intel i5, 8GB RAM, 256GB SSD</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="phones" data-aos="fade-up">
+      <h2>Smartphones & Tablets</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/samsung.jpg" alt="Samsung Galaxy S23">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Samsung Galaxy S23</h3>
+            <span class="product-price">KES 95,000</span>
+            <p>6.1-inch Dynamic AMOLED, 128GB Storage</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/iphone.jpg" alt="iPhone 14">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">iPhone 14</h3>
+            <span class="product-price">KES 110,000</span>
+            <p>6.1-inch Super Retina XDR, 128GB Storage</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/ipad.jpg" alt="iPad Air">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">iPad Air</h3>
+            <span class="product-price">KES 85,000</span>
+            <p>10.9-inch Liquid Retina, 64GB Storage</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/tecno.jpg" alt="Tecno Camon 20">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Tecno Camon 20</h3>
+            <span class="product-price">KES 25,000</span>
+            <p>6.7-inch Display, 128GB Storage, 5000mAh</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="accessories" data-aos="fade-up">
+      <h2>Accessories</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/keyboard.jpg" alt="Wireless Keyboard and Mouse">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Wireless Keyboard & Mouse</h3>
+            <span class="product-price">KES 4,500</span>
+            <p>Ergonomic design, 2.4GHz wireless connection</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/laptopbag.jpg" alt="Laptop Bag">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Laptop Bag</h3>
+            <span class="product-price">KES 3,500</span>
+            <p>Water-resistant, fits up to 15.6" laptops</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/case.jpg" alt="Phone Cases">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Phone Cases</h3>
+            <span class="product-price">KES 1,500</span>
+            <p>Various models available, shock-absorbent</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/protector.jpg" alt="Screen Protectors">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Screen Protectors</h3>
+            <span class="product-price">KES 1,200</span>
+            <p>Tempered glass, various sizes available</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="components" data-aos="fade-up">
+      <h2>Components & Parts</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/ram.jpg" alt="8GB DDR4 RAM">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">8GB DDR4 RAM</h3>
+            <span class="product-price">KES 4,000</span>
+            <p>2666MHz, compatible with most laptops</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/ssd.jpg" alt="500GB SSD">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">500GB SSD</h3>
+            <span class="product-price">KES 6,500</span>
+            <p>SATA III, significantly faster than HDD</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/battery.jpg" alt="Laptop Batteries">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Laptop Batteries</h3>
+            <span class="product-price">KES 5,500</span>
+            <p>Various models available, 1-year warranty</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/charger.jpg" alt="Chargers and Adapters">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Chargers & Adapters</h3>
+            <span class="product-price">KES 2,500</span>
+            <p>Original and compatible models available</p>
+            <button class="btn product-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="cta-section" data-aos="fade-up">
+      <h2>Can't Find What You're Looking For?</h2>
+      <p>We can special order products not listed in our inventory. Contact us for availability and pricing.</p>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>JiraniTech Outfitters</h3>
+        <p>Your trusted technology partner for repairs, consulting, and solutions.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>Email: info@jiranitech.com</p>
+        <p>Phone: +254 721 517 279</p>
+        <p>Address: Tech Plaza, Nairobi, Kenya</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 JiraniTech Outfitters. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

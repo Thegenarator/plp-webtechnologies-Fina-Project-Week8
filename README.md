@@ -1,90 +1,165 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+JiraniTech Outfitters - Multipage Website
+Project Overview
+JiraniTech Outfitters is a comprehensive multi-page website for a technology repair and services company based in Nairobi, Kenya. This project demonstrates modern web development practices with a fully responsive design, interactive elements, and a clean, professional appearance.
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+🌐 Live Demo
+View Live Website
+Replace with your actual deployment URL
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+📁 Project Structure
+text
+jiranitech-website/
+├── index.html          # Home page
+├── about.html          # About us page
+├── services.html       # Services page
+├── products.html       # Products page
+├── contact.html        # Contact page
+├── css/
+│   └── style.css       # Main stylesheet
+├── js/
+│   └── script.js       # JavaScript functionality
+├── images/             # Image assets
+│   ├── dell-xps.jpg
+│   ├── hp-pavilion.jpg
+│   ├── lenovo-thinkpad.jpg
+│   ├── macbook-air.jpg
+│   ├── samsung-s23.jpg
+│   ├── iphone-14.jpg
+│   ├── ipad-air.jpg
+│   ├── tecno-camon.jpg
+│   ├── keyboard-mouse.jpg
+│   ├── laptop-bag.jpg
+│   ├── phone-case.jpg
+│   ├── screen-protector.jpg
+│   ├── ram.jpg
+│   ├── ssd.jpg
+│   ├── laptop-battery.jpg
+│   └── charger.jpg
+└── README.md           # This file
+✨ Features
+Responsive Design: Fully responsive layout that works on mobile, tablet, and desktop devices
 
----
+Dark/Light Mode: Toggle between light and dark themes with persistent user preference
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Interactive Elements:
 
-Before you write any code, take time to plan:
+Animated counters and statistics
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Service search filtering
 
-**Goal:** Show intentional structure and user journey across the site.
+Tabbed product categories
 
----
+Expandable FAQ sections
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Form validation with user feedback
 
-Using your plan, begin building:
+Modern UI/UX: Clean, professional design with smooth animations and transitions
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Multi-page Navigation: Intuitive navigation between 5 distinct pages
 
-Each page should:
+Performance Optimized: Fast loading times and optimized assets
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+🛠️ Technologies Used
+HTML5: Semantic markup for better accessibility and SEO
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+CSS3: Modern styling with Flexbox, Grid, and CSS Variables
 
----
+JavaScript: Vanilla JS for interactive functionality
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+AOS Library: Scroll animations for enhanced user experience
 
-Before deployment, refactor your project to follow production-friendly practices:
+Typed.js: Animated typing effect for hero section
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+📋 Assignment Requirements Met
+This project fulfills all requirements of the multipage website assignment:
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+✅ Part 1: Planning and Organization
+Defined website purpose (technology services and products)
 
----
+Created 5 pages (Home, About, Services, Products, Contact)
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+Established clear navigation structure between pages
 
-Once your project is complete, choose a method to **host your site online**.
+Designed consistent layout across all pages
 
-You can use:
+✅ Part 2: Website Implementation
+Used semantic HTML5 structure throughout
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+Implemented responsive CSS with media queries
 
-Deploy your project and confirm that:
+Added JavaScript interactivity (dark mode, search, tabs, form validation)
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Ensured mobile responsiveness on all pages
 
-**Goal:** Publish your work online and make it accessible to the world.
+Maintained consistent header/footer across pages
 
----
+✅ Part 3: Code Organization
+Organized files in proper folder structure (/css, /js, /images)
 
-## Deliverables
+Wrote clean, commented, and modular code
 
-1. A GitHub repository containing:
+Used meaningful class names and file structure
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Validated HTML and CSS
 
----
+✅ Part 4: Deployment
+Prepared for deployment to GitHub Pages, Netlify, or Vercel
 
-## Outcome
+All links and scripts tested and working
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Responsive design verified on multiple devices
+
+🚀 Deployment Instructions
+GitHub Pages
+Create a new GitHub repository
+
+Upload all project files to the repository
+
+Go to Repository Settings → Pages
+
+Select "main" branch as source and click Save
+
+Your site will be published at https://your-username.github.io/repository-name
+
+Netlify
+Drag and drop your project folder to Netlify's deployment area
+
+Or connect your GitHub repository for continuous deployment
+
+Netlify will automatically deploy your site
+
+Vercel
+Install Vercel CLI: npm i -g vercel
+
+Run vercel in your project directory
+
+Follow the prompts to deploy
+
+🎨 Customization Guide
+To customize this website for your own business:
+
+Update business information in all HTML files
+
+Replace placeholder images in the /images folder with your own
+
+Modify color scheme by changing CSS variables in style.css
+
+Update services, products, and pricing information
+
+Customize the contact form fields as needed
+
+📞 Contact Information
+Email: info@jiranitech.com
+
+Phone: +254 700 123 456
+
+Address: Tech Plaza, Nairobi, Kenya
+
+📜 License
+This project is created for educational purposes as part of a web development assignment. Please attribute if reusing code.
+
+👨‍💻 Developer
+This website was developed as a final assignment for a web development course, demonstrating proficiency in HTML, CSS, JavaScript, and responsive design principles.
+
+For any questions about this project, please refer to the documentation or contact the development team.
+
