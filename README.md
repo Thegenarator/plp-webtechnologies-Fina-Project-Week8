@@ -4,7 +4,9 @@ JiraniTech Outfitters is a comprehensive multi-page website for a technology rep
 
 🌐 Live Demo
 View Live Website
-Replace with your actual deployment URL
+
+(https://thegenarator.github.io/plp-webtechnologies-Fina-Project-Week8/)
+
 
 📁 Project Structure
 text
@@ -35,7 +37,11 @@ jiranitech-website/
 │   ├── ssd.jpg
 │   ├── laptop-battery.jpg
 │   └── charger.jpg
-└── README.md           # This file
+└── README.md          
+
+# This file
+
+
 ✨ Features
 Responsive Design: Fully responsive layout that works on mobile, tablet, and desktop devices
 
@@ -59,6 +65,7 @@ Multi-page Navigation: Intuitive navigation between 5 distinct pages
 
 Performance Optimized: Fast loading times and optimized assets
 
+
 🛠️ Technologies Used
 HTML5: Semantic markup for better accessibility and SEO
 
@@ -69,6 +76,7 @@ JavaScript: Vanilla JS for interactive functionality
 AOS Library: Scroll animations for enhanced user experience
 
 Typed.js: Animated typing effect for hero section
+
 
 📋 Assignment Requirements Met
 This project fulfills all requirements of the multipage website assignment:
@@ -151,7 +159,10 @@ Customize the contact form fields as needed
 📞 Contact Information
 Email: info@jiranitech.com
 
-Phone: +254 700 123 456
+Phone: +254 721 517 279
+
+
+
 
 Address: Tech Plaza, Nairobi, Kenya
 
